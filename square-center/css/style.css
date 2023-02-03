@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.wrapper {
+    height: 90vh;
+    margin: 20px;
+    border: 3px solid black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+}
